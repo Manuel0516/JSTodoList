@@ -2,10 +2,16 @@
   "name": "jstodolist-start",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://Manuel0516.github.io/JSTodoList",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm i serve",
+    "deploy": "serve -l 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
